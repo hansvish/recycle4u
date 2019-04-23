@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./Dropdown.css"
-
 const Dropdown = () => (
     <div class="dropdown" style={{paddingTop: "10px"}}>
         <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
