@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    padding-bottom: 0rem;
+    overscroll-behavior: none;
+  }
+
+.nav {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #70a826;
+    box-shadow: inset 0px 1px 5px rgba(0,0,0,0.2);
+}
+
+.nav .container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav .navbar {
+    padding: 0;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav .custom-toggler.navbar-toggler {
+    border-color: white;
+}
+.nav .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav button{
+    color: white;
+    border-color: white;
+}
+
+.nav .btn-outline-success:hover{
+    background-color: #009800;
+    border-color: white;
+}
+
+@media screen and (min-width: 992px){
+    .nav #title{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .nav .nav-item:hover{
+        background-color: green;
+    }
+
+    .nav .active{
+        background-color: green;
+}
+}
+
+@media screen and (max-width: 991px){
+    .nav .container{
+        margin: 0px;
+    }
+
+    .nav .navbar-collapse{
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,20 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    padding-bottom: 0rem;
+    overscroll-behavior: none;
+  }
+  
+.error {
+    padding-top: 20px;
+}

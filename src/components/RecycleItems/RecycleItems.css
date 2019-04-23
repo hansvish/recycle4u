@@ -1,0 +1,6 @@
+.recycleItems .item{
+    border: 8px solid green;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+}

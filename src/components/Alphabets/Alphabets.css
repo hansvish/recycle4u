@@ -1,0 +1,17 @@
+.alpha{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.alpha a {
+    color: grey;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block
+}
+
+.alpha a:hover{
+    color: #9fd35b;
+}

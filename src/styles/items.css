@@ -1,0 +1,22 @@
+.items h1{
+    padding-top: 20px;
+    font-family: 'Merienda', cursive;
+}
+
+.items .alpha{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.items .alpha a {
+    color: grey;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block
+}
+
+.items .alpha a:hover{
+    color: #9fd35b;
+}
